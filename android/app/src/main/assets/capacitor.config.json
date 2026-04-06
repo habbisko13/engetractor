@@ -1,0 +1,12 @@
+{
+	"appId": "com.engetractor.app",
+	"appName": "Engetractor",
+	"webDir": "dist",
+	"server": {
+		"url": "https://engetractor.onrender.com",
+		"cleartext": true
+	},
+	"android": {
+		"allowMixedContent": true
+	}
+}
