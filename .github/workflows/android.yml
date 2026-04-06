@@ -22,6 +22,9 @@ jobs:
       - name: Build Web Project
         run: npm run build
 
+      - name: Install Capacitor CLI
+        run: npm install @capacitor/cli @capacitor/core @capacitor/android
+
       - name: Sync Capacitor
         run: npx cap sync android
 
