@@ -47,7 +47,11 @@
       "package.json"
     ],
     "win": {
-      "target": "portable"
-    }
+      "target": [
+        "portable"
+      ],
+      "icon": "public/icon.ico"
+    },
+    "asar": true
   }
 }
